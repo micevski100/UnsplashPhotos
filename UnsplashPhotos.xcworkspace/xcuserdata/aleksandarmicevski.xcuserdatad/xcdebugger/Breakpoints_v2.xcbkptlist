@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9F1DAF91-F091-44F1-8C53-A1C929DEBE9A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D9DBE24-DEBA-4E81-A445-D904FD19DD7D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnsplashPhotos/Extensions/UINavitaionControllerExtensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "previousViewController"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1D9DBE24-DEBA-4E81-A445-D904FD19DD7D - 239bb4591bd4c191"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.previousViewController.getter : Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "UnsplashPhotos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandarmicevski/Documents/Projects/Resume/UnsplashPhotos/UnsplashPhotos/Extensions/UINavitaionControllerExtensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "1D9DBE24-DEBA-4E81-A445-D904FD19DD7D - 239bb4591bd4c191"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.previousViewController.getter : Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "UnsplashPhotos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandarmicevski/Documents/Projects/Resume/UnsplashPhotos/UnsplashPhotos/Extensions/UINavitaionControllerExtensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

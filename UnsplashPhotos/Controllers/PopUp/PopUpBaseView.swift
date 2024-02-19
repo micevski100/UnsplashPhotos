@@ -52,6 +52,7 @@ class PopUpBaseView: ContentView {
         
         titleLabel = UILabel()
         titleLabel.text = "Title"
+        titleLabel.textColor = .black
         titleLabel.font = UIFont.teko(size: 17).bold
         titleLabel.numberOfLines = 2
         titleLabel.textAlignment = .center

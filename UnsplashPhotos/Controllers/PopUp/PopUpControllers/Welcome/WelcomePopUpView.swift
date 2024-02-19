@@ -26,6 +26,7 @@ class WelcomePopUpView: PopUpBaseView {
         Join our community of wallpaper enthusiasts and elevate your device's aesthetics to new heights. Download [App Name] today and let your imagination run wild with endless possibilities for customization. Welcome to a world of inspiration, creativity, and endless beauty right at your fingertips.
         """
         descriptionLabel.font = UIFont.teko(size: 16)
+        descriptionLabel.textColor = .black
         descriptionLabel.textAlignment = .center
         descriptionLabel.numberOfLines = 0
         self.contentContainer.addSubview(descriptionLabel)

@@ -11,7 +11,7 @@ class MainController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = .black
         self.selectedIndex = 2
         
         let homeTab = HomeController.factoryController()

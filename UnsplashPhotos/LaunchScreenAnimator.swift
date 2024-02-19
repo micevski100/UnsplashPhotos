@@ -22,6 +22,7 @@ class LaunchScreenAnimator: UIViewController {
     }
     
     func setupViews() {
+        self.view.backgroundColor = .black
         imageView = UIImageView()
         imageView.image = UIImage(named: "logo")
         imageView.contentMode = .scaleAspectFit

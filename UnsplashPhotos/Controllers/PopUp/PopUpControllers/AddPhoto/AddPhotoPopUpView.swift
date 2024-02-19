@@ -20,8 +20,9 @@ class AddPhotoPopUpView: PopUpBaseView {
         super.setupViews()
         
         descriptionLabel = UILabel()
+        descriptionLabel.textColor = .black
         descriptionLabel.numberOfLines = 2
-        descriptionLabel.font = UIFont.teko(size: 13    )
+        descriptionLabel.font = UIFont.teko(size: 13)
         self.contentContainer.addSubview(descriptionLabel)
         
         tableView = UITableView()

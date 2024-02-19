@@ -21,6 +21,7 @@ class AddPhotoPopUpTableCell: ContentTableViewCell {
         
         titleLabel = UILabel()
         titleLabel.font = UIFont.teko(size: 20)
+        titleLabel.textColor = .black
         self.contentView.addSubview(titleLabel)
     }
     

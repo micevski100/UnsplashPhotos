@@ -16,16 +16,16 @@ class Constants: NSObject {
     static let SCOPE = "public+read_user+write_user+read_photos+write_photos+write_likes+write_followers+read_collections+write_collections"
     
 //    monotone 1
-//    static let AUTH_CLIENT_ID = "EnVBxW5wjZto66TWnBl_NIRknz4zRtD5c0z6mm1IzfM"
-//    static let AUTH_CLIENT_SECRET = "PNJDCydBG1Zpjn-aSpNPncDPgSrE70VKZWBG0wumjto"
+    static let AUTH_CLIENT_ID = "EnVBxW5wjZto66TWnBl_NIRknz4zRtD5c0z6mm1IzfM"
+    static let AUTH_CLIENT_SECRET = "PNJDCydBG1Zpjn-aSpNPncDPgSrE70VKZWBG0wumjto"
     
 //    monotone 2
 //    static let AUTH_CLIENT_ID = "2r2o9OYixk6nW-umfKW3B1fRLXegyLpb5781jnoZG3k"
 //    static let AUTH_CLIENT_SECRET = "z2rgtjw16tUkl8vto4T9RMWLogM5M96pd0faS-UcPvM"
     
 //    monotone 3
-    static let AUTH_CLIENT_ID = "uc6tYZY2UeKwx3ED-ywM5kMnnrOkjPyg-a3RuzyuCek"
-    static let AUTH_CLIENT_SECRET = "9Y6nVrLacY9f9-VNGNn0vXFsZqGwhDGUwQHtYBo32xU"
+//    static let AUTH_CLIENT_ID = "uc6tYZY2UeKwx3ED-ywM5kMnnrOkjPyg-a3RuzyuCek"
+//    static let AUTH_CLIENT_SECRET = "9Y6nVrLacY9f9-VNGNn0vXFsZqGwhDGUwQHtYBo32xU"
     
 //    monotone 4
 //    static let AUTH_CLIENT_ID = "AW5_-B_o_F7pTWVId8_Wn0ryCPnyCcu7tRFLZtsGDmI"

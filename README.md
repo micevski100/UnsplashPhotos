@@ -13,5 +13,8 @@ This repo contains the source code of the UnsplashPhotos iOS project. It was bui
 2. Install dependencies inside the project with `pod install`
 3. Free API requests are quickly exhausted due to the app's Home Screen making numerous requests. If the daily limit is reached, update `Constants.swift` and reset the simulator by clicking Simulator>Device>Erase All Contents and Settings
 
+## Home
+![video-ezgif com-optimize](https://github.com/micevski100/UnsplashPhotos/assets/36006335/8812c935-f33e-49d6-8bd9-4dd0f3b69934)
 
-![video-ezgif com-optimize](https://github.com/micevski100/UnsplashPhotos/assets/36006335/271172af-1cf2-4e23-b66d-79e514f04a1c)
+## My Collections
+![video-ezgif com-optimize](https://github.com/micevski100/UnsplashPhotos/assets/36006335/0f594ed9-e647-4e50-a49f-1d6ad61c2537)

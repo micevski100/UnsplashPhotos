@@ -24,7 +24,7 @@ class PhotoDetailsController: BaseController<PhotoDetailsView> {
         super.viewDidLoad()
         self.title = "\(item.user.username)'s photo"
         self.navigationController?.navigationBar.prefersLargeTitles = false
-        self.contentView.setup(item.urls.thumb)
+        self.contentView.setup(item.urls.regular)
         
         let mapButton = UIBarButtonItem(image: UIImage(systemName: "location.fill"), style: .plain, target: self, action: #selector(photoLocationButtonClick))
         mapButton.tintColor = .white

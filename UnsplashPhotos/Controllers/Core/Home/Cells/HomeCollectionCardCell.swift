@@ -89,7 +89,7 @@ class HomeCollectionCardCell: ContentCollectionViewCell {
         self.cardShape = cardShape
         
         titleLabel.text = title
-        imageView.kf.setImage(with: URL(string: item.urls.thumb))
+        imageView.kf.setImage(with: URL(string: item.urls.regular))
         titleContainer.snp.removeConstraints()
         switch cardShape {
         case .singleCardSmall:

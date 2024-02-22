@@ -72,7 +72,7 @@ class HomeCollectionPhotoCell: ContentCollectionViewCell {
         self.collectionResponse = collectionResponse
         self.item = item
         imageView.kf.cancelDownloadTask()
-        imageView.kf.setImage(with: URL(string: item.urls.thumb))
+        imageView.kf.setImage(with: URL(string: item.urls.regular))
         imageView.layer.borderWidth = withCornerRadius ? 2 : 0
         imageView.layer.cornerRadius = withCornerRadius ? 10 : 0
         numOfLikesLabel.text = "\(item.likes)"

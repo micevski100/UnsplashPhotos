@@ -27,4 +27,5 @@ struct PhotoUrlsResponse: Codable {
     var thumb: String
     var full: String
     var raw: String
+    var regular: String
 }

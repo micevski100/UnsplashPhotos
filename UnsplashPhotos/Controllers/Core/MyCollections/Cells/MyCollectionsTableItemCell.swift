@@ -91,7 +91,7 @@ class MyCollectionsTableItemCell: ContentTableViewCell {
     
     func setup(_ item: CollectionResponse) {
         self.item = item
-        thumbImage.kf.setImage(with: URL(string: item.cover_photo?.urls.regular ?? emptyThumbUrl))
+        thumbImage.kf.setImage(with: URL(string: item.cover_photo?.urls.small ?? emptyThumbUrl))
         nameLabel.text = item.title
         descriptionLabel.text = item.description
     }

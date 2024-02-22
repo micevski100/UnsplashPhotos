@@ -49,7 +49,7 @@ class LikedCollectionItemCell: ContentCollectionViewCell {
     func setup(_ item: PhotoResponse) {
         self.item = item
         imageView.kf.cancelDownloadTask()
-        imageView.kf.setImage(with: URL(string: item.urls.regular))
+        imageView.kf.setImage(with: URL(string: item.urls.small))
     }
     
     override func prepareForReuse() {

@@ -54,7 +54,7 @@ class HomeCollectionCardCell: ContentCollectionViewCell {
         
         goToDetailsButton = UIButton()
         goToDetailsButton.setImage(UIImage(systemName: "arrow.right.circle.fill"), for: .normal)
-        goToDetailsButton.tintColor = .systemGray6
+        goToDetailsButton.tintColor = .lightGray
         goToDetailsButton.contentHorizontalAlignment = .fill
         goToDetailsButton.contentVerticalAlignment = .fill
         goToDetailsButton.imageEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 0)
@@ -89,7 +89,7 @@ class HomeCollectionCardCell: ContentCollectionViewCell {
         self.cardShape = cardShape
         
         titleLabel.text = title
-        imageView.kf.setImage(with: URL(string: item.urls.regular))
+        imageView.kf.setImage(with: URL(string: item.urls.small))
         titleContainer.snp.removeConstraints()
         switch cardShape {
         case .singleCardSmall:
